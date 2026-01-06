@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Editor</title>
+
+  <!-- Remix Icons -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="editor">
+
+    <!-- LEFT -->
+    <div class="left">
+      <div class="left-top">
+        <label class="btn">
+          <i class="ri-image-line"></i>
+          Choose Image
+          <input type="file" id="image-input" accept="image/*" />
+        </label>
+
+        <button class="btn btn-reset" id="reset-btn">Reset</button>
+        <button class="btn btn-download" id="download-btn">Download</button>
+      </div>
+
+      <div class="left-bottom">
+        <canvas id="image-canvas"></canvas>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+      <div id="filters-container"></div>
+
+      <div class="presets">
+        <div class="preset-title">Presets</div>
+        <div class="preset-buttons" id="preset-container"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
