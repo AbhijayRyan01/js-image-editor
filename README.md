@@ -1,7 +1,3 @@
-Here’s a **GitHub-ready README** (concise, clean, and professional). You can copy-paste this directly into `README.md`.
-
----
-
 # 🖼️ Image Editor Web App
 
 A **responsive, mobile-friendly image editor** built with **HTML, CSS, and Vanilla JavaScript**, featuring **real-time canvas-based filters**, **touch gesture support**, and a **clean, production-ready UI**.
